@@ -247,6 +247,10 @@ footer p {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+  body{
+    margin: 10px;
+    padding:5px;
+  }
   .intro {
     display: inline-block;
   }
@@ -260,7 +264,7 @@ footer p {
     font-size: 26px;
   }
   .intro-half-width p {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
   }
   .my-mission h1 {
@@ -273,24 +277,24 @@ footer p {
     justify-content:center;
   }
   .mission-card {
-    height: 250px;
-    width: 300px;
+    height: 270px;
+    width: 250px;
   }
   .mission-card img {
     height: 100px;
     width: 100px;
   }
   .vission-card {
-    height: 250px;
-    width: 300px;
+    height: 270px;
+    width: 250px;
   }
   .vission-card img {
     height: 100px;
     width: 100px;
   }
   .goal-card {
-    height: 250px;
-    width: 300px;
+    height: 270px;
+    width: 250px;
   }
   .goal-card img {
     height: 100px;
@@ -308,7 +312,7 @@ footer p {
   }
   .develop-half-width-text {
     margin-top: 20px;
-    width: 100%;
+    width: 90%;
     margin-left: 10px;
   }
   .develop-half-width-text h1 {
@@ -316,7 +320,7 @@ footer p {
   }
   .develop-half-width-text p {
     width: 93%;
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
   }
   .community {
@@ -333,7 +337,7 @@ footer p {
   }
   .community-half-width-text p {
     width: 90%;
-    font-size: 15px;
+    font-size: 16px;
   }
   .community-half-width-img {
     margin-top: 15px;
